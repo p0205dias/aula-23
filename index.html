@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Formulário para contato de avisos">
+    <link rel="stylesheet" href="style.css">
     <title>Contate-nos</title>
   </head>
   <body>
     <h1>Contate-nos</h1>
 
     <form id="contateNosForm">
-      <div>
+      <div class="nome-container">
         <fieldset>
           <label for="nome">Nome *</label>
           <input
@@ -47,7 +48,7 @@
         <label for="feminino">Feminino</label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="mensagem-cotainer">
         <label for="mensagem">Mensagem *</label>
         <textarea name="mensagem" id="mensagem" required></textarea>
       </fieldset>
